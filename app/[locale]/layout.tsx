@@ -5,7 +5,7 @@ import { NextIntlClientProvider } from "next-intl";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ReactNode } from "react";
-import Providers from "./providers";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -38,6 +38,7 @@ export default async function LocaleLayout({ children, params: { locale  } }: Pr
             <Header/>
             {children}
             <Footer />
+            <Analytics/>
         </NextIntlClientProvider>
       </body>
     </html>

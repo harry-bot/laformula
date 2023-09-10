@@ -63,7 +63,7 @@ const Hero = () => {
                     <p className="text-2xl font-light  lg:font-bold lg:text-4xl  bg-gradient-to-r from-red-500 via-pink-500 to-purple-500  text-transparent bg-clip-text">
                       {t("para2")}
                     </p>
-                    <div className="flex items-start space-x-10 pt-10 font-bold text-xl">
+                    <div className="flex items-start space-x-10 pt-10 font-normal text-xl">
                       <Link
                         href="#footer"
                         onClick={handleScroll}
