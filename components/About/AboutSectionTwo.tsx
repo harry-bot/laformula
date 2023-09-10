@@ -39,12 +39,12 @@ const AboutSectionTwo = () => {
                   <animated.div
                     ref={ref}
                     style={springs}
-                    className="text-base lg:text-3xl text-white mb-12 w-full"
+                    className="text-base lg:text-xl text-white mb-12 w-full"
                   >
-                    <p className="text-2xl lg:text-7xl lg:font-bold ">
+                    <p className="text-2xl lg:text-5xl lg:font-bold ">
                       {t("Title1")}
                     </p>
-                    <p className="text-2xl lg:text-7xl lg:font-bold bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 inline-block text-transparent bg-clip-text">
+                    <p className="text-2xl lg:text-5xl lg:font-bold bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 inline-block text-transparent bg-clip-text">
                       {t("Title2")}
                     </p>
                     <p className=" pt-4 lg:w-1/2 text-center mx-auto">
@@ -60,24 +60,24 @@ const AboutSectionTwo = () => {
                       <Image
                         src="/images/brand/Gradient Corporate Gears.png"
                         alt="logo"
-                        width="400"
-                        height="400"
+                        width="200"
+                        height="200"
                       />
                     </span>
                     <span className="w-1/6">
                       <Image
                         src="/images/brand/Gradient Idea.png"
                         alt="logo"
-                        width="400"
-                        height="400"
+                        width="200"
+                        height="200"
                       />
                     </span>
                     <span className="w-1/6">
                       <Image
                         src="/images/brand/Gradient Business.png"
                         alt="logo"
-                        width="400"
-                        height="400"
+                        width="200"
+                        height="200"
                       />
                     </span>
                   </animated.div>

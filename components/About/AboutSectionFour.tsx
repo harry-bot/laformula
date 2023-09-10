@@ -39,12 +39,12 @@ const AboutSectionFour = () => {
                   <animated.div
                     ref={ref}
                     style={springs}
-                    className="text-base lg:text-3xl text-white mb-12 w-full"
+                    className="text-base lg:text-xl text-white mb-12 w-full"
                   >
-                    <p className="text-xl lg:text-7xl lg:font-bold ">
+                    <p className="text-xl lg:text-5xl lg:font-bold ">
                       {t("Title1")}
                     </p>
-                    <p className="text-xl lg:text-7xl lg:font-bold bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 inline-block text-transparent bg-clip-text leading-10">
+                    <p className="text-xl lg:text-5xl lg:font-bold bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 inline-block text-transparent bg-clip-text leading-10">
                       {t("Title2")}
                     </p>
                   </animated.div>
@@ -61,7 +61,7 @@ const AboutSectionFour = () => {
                     style={springs}
                     className="flex justify-center items-center"
                   >
-                    <p className="text-base lg:text-3xl lg:w-1/2 mb-12 border-2 bg-body_color/[.07] border-transparent text-white rounded-3xl text-center px-1 lg:px-2 py-4">
+                    <p className="text-base lg:text-xl lg:w-1/2 mb-12 border-2 bg-body_color/[.07] border-transparent text-white rounded-3xl text-center px-1 lg:px-2 py-4">
                       {t("para")}
                     </p>
                   </animated.div>

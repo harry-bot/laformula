@@ -63,11 +63,11 @@ const Hero = () => {
                     <p className="text-2xl font-light  lg:font-bold lg:text-4xl  bg-gradient-to-r from-red-500 via-pink-500 to-purple-500  text-transparent bg-clip-text">
                       {t("para2")}
                     </p>
-                    <div className="flex items-start space-x-10 pt-10 font-light">
+                    <div className="flex items-start space-x-10 pt-10 font-bold text-xl">
                       <Link
                         href="#footer"
                         onClick={handleScroll}
-                        className="w-1/3 mx-auto rounded-[64px] bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 p-4 text-center"
+                        className="mx-auto rounded-[64px] bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 py-2 px-4 text-center"
                       >
                         {navbar("contact")}
                       </Link>
@@ -78,8 +78,8 @@ const Hero = () => {
                     <Image
                       src="/images/hero/Increase Arrow.png"
                       alt="logo"
-                      width="500"
-                      height="500"
+                      width="400"
+                      height="400"
                     />
                   </span>
                 </animated.div>

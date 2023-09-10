@@ -43,12 +43,12 @@ const AboutSectionOne = () => {
                   <animated.div
                     ref={ref}
                     style={springs}
-                    className="text-base lg:text-3xl text-white lg:text-left mb-12 w-full lg:!w-[50%]"
+                    className="text-base lg:text-xl text-white lg:text-left mb-12 w-full lg:!w-[50%]"
                   >
-                    <p className=" text-2xl font-light lg:text-7xl lg:font-bold">
+                    <p className=" text-2xl font-light lg:text-5xl lg:font-bold">
                       {t("Title1")}
                     </p>
-                    <p className=" text-2xl font-light lg:text-7xl lg:font-bold bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 inline-block text-transparent bg-clip-text">
+                    <p className=" text-2xl font-light lg:text-5xl lg:font-bold bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 inline-block text-transparent bg-clip-text">
                       {t("Title2")}
                     </p>
                     <p className="pt-4 mx-auto">{t("para")}</p>
@@ -61,8 +61,8 @@ const AboutSectionOne = () => {
                     <Image
                       src="/images/brand/Gradient Gear.png"
                       alt="logo"
-                      width="500"
-                      height="500"
+                      width="400"
+                      height="400"
                     />
                   </animated.span>
                 </div>

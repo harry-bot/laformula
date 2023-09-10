@@ -97,7 +97,7 @@ const Header = () => {
                           <span className="fi fi-es"></span>
                           <span> ES</span>
                         </Link>
-                        <Link
+                        {/* <Link
                           href="/pt"
                           className="block rounded py-2.5 text-sm text-white hover:opacity-70 lg:px-3"
                           scroll={false}
@@ -120,7 +120,7 @@ const Header = () => {
                         >
                           <span className="fi fi-fr"></span>
                           <span> FR</span>
-                        </Link>
+                        </Link> */}
                       </div>
                     </li>
   
