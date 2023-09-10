@@ -16,7 +16,7 @@ const config: Config = {
       current: colors.current,
       transparent: colors.transparent,
       white: colors.white,
-      black: "#131617",
+      black: "#1e2046",
       primary: "#151730",
       yellow: colors.yellow,
       body_color: "#959CB1",

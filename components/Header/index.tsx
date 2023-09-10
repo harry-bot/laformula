@@ -41,7 +41,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header top-0 left-0 z-40 flex w-full items-center`}
+        className={`header top-0 left-0 z-40 flex w-full items-center bg-black`}
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
@@ -71,7 +71,7 @@ const Header = () => {
                 </button>
                 <ul
                   id="navbarCollapse"
-                  className={`navbar absolute right-0 z-30 rounded border-[.5px] border-body-color/20 bg-black py-4 px-6 duration-300 ${
+                  className={`navbar absolute right-0 z-30 rounded border-[.5px] border-primary bg-black py-4 px-6 duration-300 ${
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"

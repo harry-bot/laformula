@@ -22,7 +22,7 @@ const AboutSectionFour = () => {
   const t = useTranslations("sectionFour");
   return (
     <>
-      <section id="home" className="relative z-10 pt-16 overflow-hidden pb-16">
+      <section id="home" className="relative z-10 pt-16 overflow-hidden pb-16 bg-black">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
           <div
